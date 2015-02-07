@@ -1,0 +1,41 @@
+.main-navbar{
+	background-color: #C71F00;
+	height: 65px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	font-size: 1.2em;
+}
+
+.nav-tab-size{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+
+.nav-market-name{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	bottom: 3px;
+}
+
+
+.div-size-1{
+	width: 13%;
+}
+
+.div-size-2{
+	width: 80%;
+}
+
+li:hover {
+	background-color: #FF7272;
+}
+
+li {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
