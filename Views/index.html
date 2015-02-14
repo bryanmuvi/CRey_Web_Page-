@@ -1,61 +1,68 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>CRey</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <script src="../Javascript/jquery.js"></script>
-		<script src="../Javascript/angular.js"></script>	
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
-	    <script src="../Javascript/bootstrap.js"></script>
-	    <script src="../Javascript/app.js"></script>
-		<script src="../Javascript/package.js"></script>
-		<link rel="stylesheet" href="../Styles/bootstrap.css">
-		<link rel="stylesheet" href="../Styles/nav-bar.css">	
-		<link rel="stylesheet" href="../Styles/carrousel.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CRey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../Javascript/jquery.js"></script>
+    <script src="../Javascript/angular.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <script src="../Javascript/bootstrap.js"></script>
+    <script src="../Javascript/app.js"></script>
+    <script src="../Javascript/package.js"></script>
+    <link rel="stylesheet" href="../Styles/bootstrap.css">
+    <link rel="stylesheet" href="../Styles/nav-bar.css">  
+    <link rel="stylesheet" href="../Styles/carrousel.css">
 
-	</head>
-	<body  ng-app="CitasApp">
-		<div>
-			<nav class="navbar navbar-default main-navbar">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header div-size-1">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">
-			      	<img class=" nav-tab-size" src="../Images/icon.png"/>
-			      </a>
-			      <h3 class="nav-market-name">Super Crey Del Alto S.A</h3>
+  </head>
+  <body  ng-app="CitasApp">
+    <nav class="navbar navbar-default">
+          <div class="container-fluid main-navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Crey del Alto</a>
+             <!-- <img class=" nav-tab-size" src="../Images/icon.png"/>-->
+            </div>
 
-			    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+              <li ><a href="#">Ofertas Disponibles</a></li>
+              <li ><a href="#">Servicios</a></li>
+              <li ><a href="#">Contáctanos</a></li>
+              <li ><a href="#">Sobre Nosotros...</a></li>
+              </ul>
+              <ul class="nav  navbar-right">
+                <a href="https://www.facebook.com"><img  src="../Images/Facebook_icon.png"/></a>
+                 
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+      </nav>
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse div-size-2 pull-right" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li ><a href="#" class="nav-bar-tabs">Inicio</a></li>
-			        <li ><a href="#">Ofertas Disponibles</a></li>
-			        <li ><a href="#">Servicios</a></li>
-			        <li ><a href="#">Contáctanos</a></li>
-			        <li ><a href="#">Sobre Nosotros...</a></li>
-			       </ul>
-			       <a class="navbar-brand pull-right" href="#">
-			      		<img  src="../Images/Facebook_icon.png"/>
-			     	 </a>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-		</div>
 
-		<div ng-view>
-			
-		</div>
+      <div ng-view>
+        
+      </div>
 
-	</body>
-</html>
+  </body>
+</html>        
+
+
+
+
+
+
+
+
+
+        
