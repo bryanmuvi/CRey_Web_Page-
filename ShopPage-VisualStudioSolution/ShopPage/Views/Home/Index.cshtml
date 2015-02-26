@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CRey</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../../../Assets/Javascript/jquery.js"></script>
+    <script src="../../../Assets/Javascript/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+    <script src="../../../Assets/Javascript/bootstrap.js"></script>
+    <script src="../../../Assets/Javascript/app.js"></script>
+    <script src="../../../Assets/Javascript/package.js"></script>
+    <link rel="stylesheet" href="../../../Assets/Styles/bootstrap.css">
+    <link rel="stylesheet" href="../../../Assets/Styles/nav-bar.css">
+    <link rel="stylesheet" href="../../../Assets/Styles/carrousel.css">
+
+</head>
+<body ng-app="CitasApp">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid main-navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Crey del Alto</a>
+                <!-- <img class=" nav-tab-size" src="../Images/icon.png"/>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#offers">Ofertas Disponibles</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contáctanos</a></li>
+                    <li><a href="#aboutUs">Sobre Nosotros...</a></li>
+                </ul>
+                <ul class="nav  navbar-right">
+                    <a href="https://www.facebook.com"><img src="../../../Assets/Images/Facebook_icon.png" /></a>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div ng-view>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
